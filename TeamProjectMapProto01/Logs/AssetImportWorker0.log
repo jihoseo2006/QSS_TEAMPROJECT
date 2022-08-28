@@ -1,0 +1,733 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 8051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/keenm/TeamProjectMapProto01
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49911
+Successfully changed project path to: C:/Users/keenm/TeamProjectMapProto01
+C:/Users/keenm/TeamProjectMapProto01
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 56.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/keenm/TeamProjectMapProto01/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   
+    VRAM:     4025 MB
+    Driver:   26.20.100.7262
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001188 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Domain Reload Profiling:
+	ReloadAssembly (731ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1902ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1576ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (688ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2215 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.4 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 4.166200 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 3.725400 ms  DeleteObjects: 0.187800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.006172 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2215 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 3.080300 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.681800 ms  DeleteObjects: 0.126300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.495716 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio
+  artifactKey: Guid(b19b75b9611c74a429a20fe784684960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio using Guid(b19b75b9611c74a429a20fe784684960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29ce592c52c9d15a113c1a3f02ea039') in 0.007071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.593881 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Scenes
+  artifactKey: Guid(245fdaa889e93f441b0be5286943c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Scenes using Guid(245fdaa889e93f441b0be5286943c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a564afee1ed9a302b83efdf29f54a8f8') in 0.008053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.390775 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation
+  artifactKey: Guid(21dda2fe7a486324fb78e60025b0e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation using Guid(21dda2fe7a486324fb78e60025b0e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641046858709a60ca322308bc9d8498d') in 0.007361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.666388 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes
+  artifactKey: Guid(a74288886dcbdc54c82254504efa82ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes using Guid(a74288886dcbdc54c82254504efa82ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d06071090fb0413032e51f2c426352') in 0.005540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035256 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Ground.prefab
+  artifactKey: Guid(6a6781ae92da1a143a75d22d323f21e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Ground.prefab using Guid(6a6781ae92da1a143a75d22d323f21e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c127c7d06c4ddf85c4d07000f2eb6b7') in 0.189416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Walls&Misc.prefab
+  artifactKey: Guid(6db4f9df0e8f1de4d8c93209de94c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Walls&Misc.prefab using Guid(6db4f9df0e8f1de4d8c93209de94c2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c64ebbe48997c30f600303fc816cd16') in 0.069756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Rule Tiles.prefab
+  artifactKey: Guid(0727e854e691beb41813e57256803b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Rule Tiles.prefab using Guid(0727e854e691beb41813e57256803b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0490906e695588a2c3056a73fc68da63') in 0.030350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.533017 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites
+  artifactKey: Guid(58c4fb7a95daf07478f314fc86fa127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites using Guid(58c4fb7a95daf07478f314fc86fa127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5354fe95d0e71409fa395579edfeda') in 0.005327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.215117 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations
+  artifactKey: Guid(b1821fd7430358a40bc5e78832f5dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations using Guid(b1821fd7430358a40bc5e78832f5dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2eff3904e155148a189795a5b56edf') in 0.005736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.977613 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_DungeonProps.png
+  artifactKey: Guid(f7b37b91088c7d44b98c5e710477bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/Minifantasy_DungeonProps.png using Guid(f7b37b91088c7d44b98c5e710477bd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e92542e933564e8ebfacf6523cc09fb') in 0.195960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.947412 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows
+  artifactKey: Guid(d4ae7833a806c82459a242bbf3230aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows using Guid(d4ae7833a806c82459a242bbf3230aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d5b63624739e39117b07746795ac4a') in 0.006083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036847 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows/Minifantasy_DungeonPropsShadows.png
+  artifactKey: Guid(bedf2249d571fad4bb00e65a7679e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props/_Shadows/Minifantasy_DungeonPropsShadows.png using Guid(bedf2249d571fad4bb00e65a7679e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502ee4ae03d9e1544570572edd0eaf8d') in 0.117924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.979055 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/CandleAnimatorController.overrideController
+  artifactKey: Guid(bbe51bbca56d4584a823b669962e8291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/CandleAnimatorController.overrideController using Guid(bbe51bbca56d4584a823b669962e8291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80377c1f37e93cbb467fa634ddbedfbf') in 0.011200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/TorchLightAnimatorController.overrideController
+  artifactKey: Guid(2f0714c519c8f6a4c9a80791109fdb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/TorchLightAnimatorController.overrideController using Guid(2f0714c519c8f6a4c9a80791109fdb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef2aa25e55f05c17e78620e78ae4f25') in 0.008427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/CandleLightAnimatorController.overrideController
+  artifactKey: Guid(38d4c0e14affb61408a12d4fa39e7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props/CandleLightAnimatorController.overrideController using Guid(38d4c0e14affb61408a12d4fa39e7e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123b3eef11ecf4a6fb9e79f26d7746a') in 0.012362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.711291 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Orc/OrcAnimatorController.overrideController
+  artifactKey: Guid(3bd9993b186b1344cbef05abe265a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Orc/OrcAnimatorController.overrideController using Guid(3bd9993b186b1344cbef05abe265a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d0814d6c6c0c711dce827f3c4582fb') in 0.035425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.932857 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props
+  artifactKey: Guid(ccd9dbe32427bf24ea8832c6f18fce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Props using Guid(ccd9dbe32427bf24ea8832c6f18fce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a348135a38c3c2768f0ecb86d4807a64') in 0.012838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.849500 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Scenes/Demo - Tileset.unity
+  artifactKey: Guid(86db64f61268ad14e902e25fa27637c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Scenes/Demo - Tileset.unity using Guid(86db64f61268ad14e902e25fa27637c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0fa6aaa4e996fd9cfe610ebc11d79f') in 0.006529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.316417 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39830e642e86629427d938554181f2fd') in 0.009268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.519050 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs
+  artifactKey: Guid(aff58ddd6191c7d49894ff4a16c2d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs using Guid(aff58ddd6191c7d49894ff4a16c2d1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c7da9886bf1046a7c94ed7f1603e3') in 0.006810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176484 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props
+  artifactKey: Guid(fb3aa68f689caee4aab2ade61bacaae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props using Guid(fb3aa68f689caee4aab2ade61bacaae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67881fc889f0c55c3230727f94e9c67a') in 0.005284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051325 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/BagSide.prefab
+  artifactKey: Guid(95999906f0dbba445ad8f34f2dd8d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/BagSide.prefab using Guid(95999906f0dbba445ad8f34f2dd8d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268c4ec13164729ae3f620bd925104ce') in 0.016221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Spikes.prefab
+  artifactKey: Guid(d7e840a5c2aec48449ea09f8296f1c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Spikes.prefab using Guid(d7e840a5c2aec48449ea09f8296f1c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d712c0c57575a9479bc04e15b0c62c') in 0.032731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner6.prefab
+  artifactKey: Guid(23b850e6994c4604dba65580536e4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner6.prefab using Guid(23b850e6994c4604dba65580536e4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0166a2a83793f1458d99dfc1d5c3464f') in 0.026423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner5.prefab
+  artifactKey: Guid(0ced3c6e4d2687d45973f607a208a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner5.prefab using Guid(0ced3c6e4d2687d45973f607a208a49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7e16457c1d0072d059162c7e445f84') in 0.025270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner1.prefab
+  artifactKey: Guid(98814e234dfe8974ca88f1fd8a95754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner1.prefab using Guid(98814e234dfe8974ca88f1fd8a95754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a08224713fd843c00ff338dccf3f633') in 0.023708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairNorth.prefab
+  artifactKey: Guid(a3c78be5201c80647aba74138f3f72b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairNorth.prefab using Guid(a3c78be5201c80647aba74138f3f72b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6509d505942f2905aa7bedbcf90b218f') in 0.024459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairEastUpright.prefab
+  artifactKey: Guid(46eceb1a6f01f4c47aa93bce9480a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairEastUpright.prefab using Guid(46eceb1a6f01f4c47aa93bce9480a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9e723060db8e38e61213fa4213c7d0') in 0.024184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairWestSide.prefab
+  artifactKey: Guid(5fd4df19dbe5235408aa30bd68430e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairWestSide.prefab using Guid(5fd4df19dbe5235408aa30bd68430e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2e422f5cfdf3d9e6fec983f6e7bf24') in 0.018450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001163 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairWestUpright.prefab
+  artifactKey: Guid(371205240cd4f0d4fb197fbebf1f04e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairWestUpright.prefab using Guid(371205240cd4f0d4fb197fbebf1f04e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae20fa1b623c7b5d5e0c1ab7495aeee') in 0.025856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Plate.prefab
+  artifactKey: Guid(9d75988dffa51fc4bb9b54a5bb8b5d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Plate.prefab using Guid(9d75988dffa51fc4bb9b54a5bb8b5d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7df0f4ea0706f6387cfffb782666ad') in 0.026246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/BagUpright.prefab
+  artifactKey: Guid(52c8c990b948d7b419bdd5aadbfdc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/BagUpright.prefab using Guid(52c8c990b948d7b419bdd5aadbfdc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e997459feec756d1b2706e434fe07e') in 0.025948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Cauldron.prefab
+  artifactKey: Guid(d10a573429b6fdb4f9517116eb3bf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Cauldron.prefab using Guid(d10a573429b6fdb4f9517116eb3bf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98e7b66940e21a7b8f85dff1bb2f442') in 0.027209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner2.prefab
+  artifactKey: Guid(a146885e17dee4844963ad593e926485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner2.prefab using Guid(a146885e17dee4844963ad593e926485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c03a1cb0ee0f6e64d696e759995aba') in 0.026186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairSouth.prefab
+  artifactKey: Guid(4c2ebfb01c50487499513fc11b67c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairSouth.prefab using Guid(4c2ebfb01c50487499513fc11b67c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4496873162170358627a3fc17a168522') in 0.025588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLongBrokenLeft.prefab
+  artifactKey: Guid(f7b5ff2cc1ee18a4fbf00c238420442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLongBrokenLeft.prefab using Guid(f7b5ff2cc1ee18a4fbf00c238420442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcab84648f72c9e8bc8b889794ff7404') in 0.024838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001344 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DoorwayTop.prefab
+  artifactKey: Guid(059b4bd8bbbb3d244a812a3f70c6650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DoorwayTop.prefab using Guid(059b4bd8bbbb3d244a812a3f70c6650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3d398ec69cd13a91f33c0df88698b3') in 0.024721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner4.prefab
+  artifactKey: Guid(fb8513e6501108747b2e997c1f87f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner4.prefab using Guid(fb8513e6501108747b2e997c1f87f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587ffb3b88abfb3e77c6f00ee0f95d20') in 0.026283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairEastSide.prefab
+  artifactKey: Guid(6170868650b4c974badfed6fc86f83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ChairEastSide.prefab using Guid(6170868650b4c974badfed6fc86f83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdacd9056fcac2c66c6f34795448768e') in 0.028468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Pot.prefab
+  artifactKey: Guid(b78cd301a16b00643851d65ba30221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Pot.prefab using Guid(b78cd301a16b00643851d65ba30221e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a198abe4cd9ad924ffd7403b300a04') in 0.026432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Chest.prefab
+  artifactKey: Guid(0d885700fafc5134fb647bcc8f90c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Chest.prefab using Guid(0d885700fafc5134fb647bcc8f90c71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4363426830061a7529fb9c90f3e546') in 0.025531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner3.prefab
+  artifactKey: Guid(8f53204c109506146b28c4a5dca90a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner3.prefab using Guid(8f53204c109506146b28c4a5dca90a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c701e1f00cc67ac1cd18ab9238b96a5e') in 0.025649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ClayMug.prefab
+  artifactKey: Guid(74684bfd4b82fee45920306d81084793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/ClayMug.prefab using Guid(74684bfd4b82fee45920306d81084793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6e2db8ce2ecc1cc719d48e937df250') in 0.025418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Coins.prefab
+  artifactKey: Guid(c08e80e513827464ab09a018e7fc78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Coins.prefab using Guid(c08e80e513827464ab09a018e7fc78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2694155204c7145dfb5ba54fc29e2c7d') in 0.029014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Door.prefab
+  artifactKey: Guid(1a080c0565b22434aa2f5db7921c2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Door.prefab using Guid(1a080c0565b22434aa2f5db7921c2659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e0573c06836ddc11a2f472a8c24552') in 0.027986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableBigBroken.prefab
+  artifactKey: Guid(c9dc29ee75f7cfb4aa50c5045226a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableBigBroken.prefab using Guid(c9dc29ee75f7cfb4aa50c5045226a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214a93cae1771ca65d9fe761790ca5de') in 0.033800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableBig.prefab
+  artifactKey: Guid(b5e2281868859b14aab01de5ce75760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableBig.prefab using Guid(b5e2281868859b14aab01de5ce75760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d917d28ec822566c28a7031c348be02') in 0.028076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLong.prefab
+  artifactKey: Guid(88b311cbde5fa654797b6864ebbf3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLong.prefab using Guid(88b311cbde5fa654797b6864ebbf3b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e8430df03477396e93fe8566177c8') in 0.028452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab
+  artifactKey: Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab using Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07971e8c8a1dc5bbb6bd1b3422894de') in 0.038154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Crate.prefab
+  artifactKey: Guid(6da752f69c897b54e8720f01447a7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Crate.prefab using Guid(6da752f69c897b54e8720f01447a7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee43bc4865f654dd3e45b28a1ab7128') in 0.034283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Statue.prefab
+  artifactKey: Guid(16a799d27278916459e10345fab96963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Statue.prefab using Guid(16a799d27278916459e10345fab96963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00489060cf955291f00100d1054b86c6') in 0.035045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmall.prefab
+  artifactKey: Guid(184c3d01c0f674e48869f9b53341d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmall.prefab using Guid(184c3d01c0f674e48869f9b53341d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566853a840c23a5256b1538838379046') in 0.031482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmallBrokenLeft.prefab
+  artifactKey: Guid(02761e59ddd99dc42ac4ed36e3655276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmallBrokenLeft.prefab using Guid(02761e59ddd99dc42ac4ed36e3655276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b466f88059d5c50d13a508c92c06ab8') in 0.037474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLongBrokenRight.prefab
+  artifactKey: Guid(87dfca3e44a17d14195f52e37a24aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableLongBrokenRight.prefab using Guid(87dfca3e44a17d14195f52e37a24aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3ce21b01afddf9c2bc5692a2d9f41f') in 0.029359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableWideBroken.prefab
+  artifactKey: Guid(eef39cfeba1f33b459195a0e9946dccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableWideBroken.prefab using Guid(eef39cfeba1f33b459195a0e9946dccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75819689b660187aa637fad10c2d057') in 0.033645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableWide.prefab
+  artifactKey: Guid(38b1bdf9b58d4174ca64eacf639a4d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableWide.prefab using Guid(38b1bdf9b58d4174ca64eacf639a4d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fd39e6534863fbce59ef142a7fed35') in 0.029399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmallBrokenRight.prefab
+  artifactKey: Guid(059f8f7dde2a7cd488c807990f5724fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/TableSmallBrokenRight.prefab using Guid(059f8f7dde2a7cd488c807990f5724fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9811c0e1356717213f78da8ef6e69ccf') in 0.031357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonCandle.prefab
+  artifactKey: Guid(9b15b3e0165b549458b91606019fe4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonCandle.prefab using Guid(9b15b3e0165b549458b91606019fe4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dc2b739dfcfb1a26505218f01812db') in 0.031549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.885352 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Characters/Human.prefab
+  artifactKey: Guid(cf6879ba03f6f5e4ab3ad5150b0ba076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Characters/Human.prefab using Guid(cf6879ba03f6f5e4ab3ad5150b0ba076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce59dd67ea36debdc89189efacc7bc4') in 0.033139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Characters/Orc.prefab
+  artifactKey: Guid(4843c6294db27f84bb07ff202205e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Characters/Orc.prefab using Guid(4843c6294db27f84bb07ff202205e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae015174489b5636ddfa6fcd37cb7adf') in 0.072971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.736409 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props
+  artifactKey: Guid(40f6af55daa29ed4eb9a2b2d955c38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Animation/Props using Guid(40f6af55daa29ed4eb9a2b2d955c38ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e524dfaedd3ec0dbd983d9b48c354a15') in 0.006670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.065390 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset
+  artifactKey: Guid(ac001d4aa3a56f94bb78db32ad8edd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset using Guid(ac001d4aa3a56f94bb78db32ad8edd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddc2cef3474352d0af303283ef5ae62') in 0.004337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052462 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonCliffTiles.png
+  artifactKey: Guid(b15ebb5139f72be468de6d294b9bb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonCliffTiles.png using Guid(b15ebb5139f72be468de6d294b9bb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d356fbc36a8608eaa95bbd8dc60f7bf') in 0.021487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonWallTiles.png
+  artifactKey: Guid(4d58bc12262e76040a130c79a34f82b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonWallTiles.png using Guid(4d58bc12262e76040a130c79a34f82b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305e381d52e529e79568f8893a90f4dc') in 0.223506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonFloorTilesExtra.png
+  artifactKey: Guid(4f6dcb3bc012f9c439961cd00a621636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonFloorTilesExtra.png using Guid(4f6dcb3bc012f9c439961cd00a621636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea994104755cf15ba89bd1020dfc41c') in 0.022416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonFloorTiles.png
+  artifactKey: Guid(96b78cad7bb6ddf4096fc152168d88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonFloorTiles.png using Guid(96b78cad7bb6ddf4096fc152168d88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9503b399cc148874f7404b6019a34f6') in 0.069515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonDoorTiles.png
+  artifactKey: Guid(79fdf2a9c1c39174fa3ea59439baf3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/Minifantasy_DungeonDoorTiles.png using Guid(79fdf2a9c1c39174fa3ea59439baf3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a16c8987634c5d683ec4ef171eeda9') in 0.027888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.385700 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/_Shadows
+  artifactKey: Guid(85aaf77ccc108ee44a10403d420fe64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/_Shadows using Guid(85aaf77ccc108ee44a10403d420fe64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e273251d13b97807102fdc0c8b5dc9') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087875 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/_Shadows/Minifantasy_DungeonWallTilesetShadows.png
+  artifactKey: Guid(2250f15e5021ae3458e93af7daf928b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Tileset/_Shadows/Minifantasy_DungeonWallTilesetShadows.png using Guid(2250f15e5021ae3458e93af7daf928b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb5ef460d8543760b000637f552a48') in 0.045027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8277.908464 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f913b31ead06506c2ec29c847feecf3') in 0.015878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.200138 seconds.
+  path: Assets/KrishnaPalacio
+  artifactKey: Guid(e4008d50ab4526c4ba469724a8402010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio using Guid(e4008d50ab4526c4ba469724a8402010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d5682a190fc3a0268f7704e3546fb') in 0.015208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5076.003584 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0907ca6d74ba3fa798efee30a670bf60') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 412.334485 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.366837 seconds.
+  path: Assets/Prefap
+  artifactKey: Guid(f377bb0dbd068eb4e88b873c402b82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefap using Guid(f377bb0dbd068eb4e88b873c402b82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f107e9803ad58744c6ada1895c2a43') in 0.078989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.478132 seconds.
+  path: Assets/Prefap/BagSide_Minifantasy_DungeonProps_6.prefab
+  artifactKey: Guid(729e6b45731d8aa42bf3b5994c1b3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefap/BagSide_Minifantasy_DungeonProps_6.prefab using Guid(729e6b45731d8aa42bf3b5994c1b3bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59478de9178b9a2a2272134ecbb7378') in 0.135945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1226.267984 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner1 1.prefab
+  artifactKey: Guid(1a964b680a2c6f44695febfd644b8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner1 1.prefab using Guid(1a964b680a2c6f44695febfd644b8ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009c595c5c42ca65ad6573f96a02fa78') in 0.040453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner6 1.prefab
+  artifactKey: Guid(b8a055144b9300f498fa2b5a2a2c4a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner6 1.prefab using Guid(b8a055144b9300f498fa2b5a2a2c4a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acdf27653f696a3513ad311928e13d4') in 0.028429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner2 1.prefab
+  artifactKey: Guid(ae8eb5799fc4a9d429765ec1fa9caf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Banner2 1.prefab using Guid(ae8eb5799fc4a9d429765ec1fa9caf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3890a4fd4d784ca3d596ce187d6bbb69') in 0.028293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 307.748283 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5714c67b1e394a825a361c1f7a1934') in 0.006112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 532.829112 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab
+  artifactKey: Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab using Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fd0180062b245aa4c7ecf42c1d552e') in 0.040747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.731978 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAnimations.png
+  artifactKey: Guid(a086c0da989a0d14db2fb9a77ccc086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAnimations.png using Guid(a086c0da989a0d14db2fb9a77ccc086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6285d50dec6d3f40c8952600350c7dc7') in 0.040158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAttack.png
+  artifactKey: Guid(1c9b84d978891c24288defb67855d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseAttack.png using Guid(1c9b84d978891c24288defb67855d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4f131f9ba7e7cebca4b3c51ec7399b') in 0.104045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319076 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseChargedAttack.png
+  artifactKey: Guid(0b5262a6696fdd4479d0e186f7021230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseChargedAttack.png using Guid(0b5262a6696fdd4479d0e186f7021230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc3981519c96bb88d7bd98cf9e3c8e1') in 0.077478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.350745 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseDmg.png
+  artifactKey: Guid(3fbee39e2384c5f4d9703cb027fb61b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseDmg.png using Guid(3fbee39e2384c5f4d9703cb027fb61b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712bf4e894ddc80a9a0c2c7928ebc8cc') in 0.071428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.066607 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseIdle.png
+  artifactKey: Guid(d90d7a221c51b3d47a20a1c27617d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Human/Minifantasy_CreaturesHumanBaseIdle.png using Guid(d90d7a221c51b3d47a20a1c27617d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaea3a536e92a3ab5946f25668b55a1') in 0.209151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.948221 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Decoration/Minifantasy_DungeonTorch.png
+  artifactKey: Guid(2876e7499d1e7c8479a234a0cbce9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Decoration/Minifantasy_DungeonTorch.png using Guid(2876e7499d1e7c8479a234a0cbce9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2528a2b1d3afa1543353b8cfa72e7e') in 0.053158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Decoration/Minifantasy_DungeonTorchLight.png
+  artifactKey: Guid(549118c2f8661de4386e68e1cf524a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Sprites/Animations/Decoration/Minifantasy_DungeonTorchLight.png using Guid(549118c2f8661de4386e68e1cf524a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3dead651f3255c19419bc710ee6a40') in 0.064986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.490845 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab
+  artifactKey: Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab using Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae963883beab9bd742e688cb1457646') in 0.033200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.458407 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab
+  artifactKey: Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab using Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44236ad3db1dfbd14bb30dd09d2a8f9c') in 0.030194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.174053 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab
+  artifactKey: Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Dungeon - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/DungeonTorch.prefab using Guid(ede366b2f23aa5b48aada72122ed8641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6e4ec3cfc5938a2fd4a8a2d4e07875') in 0.026589 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
